@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game-style.css">
+    <title>X O GMAE</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="head"><span>X O </span> <p>GAME</p></div>
+        <div class="blocks">
+            <img src="XO.png" alt="">
+        <div class="square" id="item1" onclick="game(this.id)"></div>
+        <div class="square" id="item2" onclick="game(this.id)"></div>
+        <div class="square" id="item3" onclick="game(this.id)"></div>
+
+        <div class="square" id="item4" onclick="game(this.id)"></div>
+        <div class="square" id="item5" onclick="game(this.id)"></div>
+        <div class="square" id="item6" onclick="game(this.id)"></div>
+
+        <div class="square" id="item7" onclick="game(this.id)"></div>
+        <div class="square" id="item8" onclick="game(this.id)"></div>
+        <div class="square" id="item9" onclick="game(this.id)"></div>
+    </div>
+</div>
+
+<button class="start">START</button>
+<button class="reset">Reset</button>
+<audio id="x" src="AUDIO/Correct Choice.wav"></audio>
+<audio id="o" src="AUDIO/335908__littlerainyseasons__correct.mp3"></audio>
+<audio id="win" src="AUDIO/511484__mlaudio__success_bell.wav"></audio>
+<audio id="start" src="AUDIO/Top20FreeArcadeSoundEffectsnoncopyrightedsoundeffects256kMusic.mp3"></audio>
+<script src="main.js"></script>
+</body>
+</html>
